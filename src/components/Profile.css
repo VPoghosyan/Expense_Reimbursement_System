@@ -1,0 +1,36 @@
+.btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid  #e74c3c;
+    border-radius: 0.6em;
+    
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-color: #033658;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #033658 inset, 0 0 0 0 #033658;
+    transition: all 150ms ease-in-out;
+  
+  
+   
+  }
+  
+  
+ 
+  .btn:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 10px 0 #033658 inset, 0 0 10px 4px #033658;
+  }

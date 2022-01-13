@@ -1,0 +1,13 @@
+.profileButtons {
+    flex-grow: 1;
+    border-radius: 5%;
+   
+    
+}
+
+button:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 40px 40px #03e9f4 inset;
+    
+}

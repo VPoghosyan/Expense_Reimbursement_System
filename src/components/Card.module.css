@@ -1,0 +1,35 @@
+.card {
+      
+    
+  
+ 
+  
+  
+ 
+  width: 400px;
+    height: 300px;
+    padding: 40px;
+   
+    backdrop-filter: blur(10px);
+    
+    box-sizing: border-box;
+    box-shadow: 0px 15px 205px rgba(0,0,0,.6);
+    border-radius: 10px;
+  
+}
+  
+  /* section {
+    width: 30rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    background: rgb(123, 236, 114);
+    background: linear-gradient(
+      184deg,
+      rgba(123, 236, 114, 1) 0%,
+      rgba(144, 215, 139, 1) 38%,
+      rgba(242, 251, 246, 1) 100%
+    );
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 5%;
+  } */

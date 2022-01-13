@@ -1,0 +1,31 @@
+
+
+.spinner{
+    animation: spin 3000ms infinite linear;
+  
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.jumpBar {
+    animation: bounce 1.7s ease 1;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(-10%); }
+    95% { transform:translateY(-13%); }
+    97% { transform:translateY(-11%); }
+    100% { transform:translateY(-15%); }
+    
+}
